@@ -1,5 +1,5 @@
 @echo off
-:: WireGuard AutoConfig v4.3
+:: WireGuard AutoConfig v4.5
 :: Szymon Nowak szymonn841@gmail.com 27.02.2026
 ::
 :: ----- Instructions to start --------
@@ -180,3 +180,4 @@ echo WireGuard_ConfigDATA catalog not exist
 echo.
 pause
 exit
+
