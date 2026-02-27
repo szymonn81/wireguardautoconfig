@@ -10,7 +10,7 @@
 :: Install WIreguard (https://www.wireguard.com/install/)
 :: Copy this script to this directory
 :: Run CMD as Administrator and run command "cd c:\Program Files\WireGuard"
-:: Run script wg_autoconfig_4.3.cmd makeconfig
+:: Run script wireguardautoconfig.cmd makeconfig
 :: From WireGuard_ConfigDATA\Server_config\ copy your wg_server.conf to "c:\Program Files\WireGuard"
 :: Run command "c:\Program Files\Wireguard\wireguard.exe" /installtunnelservice "c:\Program Files\Wireguard\wg_server.conf"
 :: Run command netstat -ant | find ":41820" If you see UDP 0.0.0.0:41820 *:* it means the server is running
@@ -180,4 +180,5 @@ echo WireGuard_ConfigDATA catalog not exist
 echo.
 pause
 exit
+
 
